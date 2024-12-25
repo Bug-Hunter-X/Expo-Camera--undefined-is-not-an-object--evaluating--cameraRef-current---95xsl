@@ -1,0 +1,1 @@
+The solution is to ensure that `cameraRef.current` is accessed only after the camera has successfully mounted and is ready for use. This can be achieved by checking for `cameraRef.current` before using it. Additionally, using a state variable to track whether the camera is ready provides a more robust solution. Here's how you can modify the code:
